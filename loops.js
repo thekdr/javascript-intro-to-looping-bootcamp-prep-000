@@ -21,6 +21,6 @@ function doWhile(arr) {
     return Math.random() >= 0.5;
   }
   do {
-    arr.pop
+    arr.pop();
   } while (arr.length > 0 && maybeTrue());
 }
