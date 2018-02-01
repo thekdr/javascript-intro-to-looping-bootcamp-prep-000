@@ -11,13 +11,16 @@ function forLoop(arr) {
 
 function whileLoop(num) {
   while (num >= 0) {
-    console.log(num--)
+    console.log(num--);
   }
   return "done";
 }
 
 function doWhile(arr) {
-  do {
-    
+  function maybeTrue() {
+    return Math.random() >= 0.5;
   }
+  do {
+    arr.pop
+  } while (arr.length > 0 && maybeTrue());
 }
